@@ -4,9 +4,8 @@
       <Header />
       <Explanation />
       <Announce />
-      <Footer />
+      <Access />
       <Contact />
-
       <Footer />
     </div>
   </section>
@@ -32,6 +31,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
-
+<style></style>
