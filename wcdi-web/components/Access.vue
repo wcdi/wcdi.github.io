@@ -8,7 +8,7 @@
           <div class="MapItem">
             <h3>MAP</h3>
             <div class="ImageContent">
-              <img src="../static/schoolmap.png" alt="サークル棟の場所"/>
+              <img src="../static/schoolMap.png" alt="サークル棟の場所"/>
             </div>
           </div>
           <div class="TextItem">
@@ -29,7 +29,7 @@
           <div class="RoomItem">
             <h3>部室</h3>
             <div class="ImageContent">
-              <img src="../static/roommap.png" alt="サークル部屋の場所"/>
+              <img src="../static/roomMap.png" alt="サークル部屋の場所"/>
             </div>
           </div>
         </div>
