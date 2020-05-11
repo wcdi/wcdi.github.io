@@ -1,7 +1,12 @@
 <template>
-  <div class=contact-section>
-      <p>コンタクト</p>
-      <button onclick="location.href='https://docs.google.com/forms/d/15WcQIkXtw05Mp33BrtDshMIHhfjJwTIquOIZpzQ69ug/edit'">Googleフォームへ</button>
+  <div class="Container">
+    <p class="ContactText">コンタクト</p>
+    <button
+      class="ContactButton"
+      onclick="location.href='https://docs.google.com/forms/d/15WcQIkXtw05Mp33BrtDshMIHhfjJwTIquOIZpzQ69ug/edit'"
+    >
+      Googleフォームへ
+    </button>
   </div>
 </template>
 
@@ -10,38 +15,35 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 /* ここにCSS書いてね */
-.contact-section {
-  position:relative;
-  width: 100%;
-  height: 412px;
-  padding: 82px 0 82px 0;
-  background: #ffffff;
-  text-align: center;
+.Container {
+  padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.contact-section p{
-  font-style: normal;
-  font-weight: bold;
-  font-size: 34px;
-
-  color: #55AAFF;
-}
-
-.contact-section button{
-  position:relative;
-  width: 576px;
-  height: 128px;
-  bottom: -70px;
-
-  font-style: normal;
+.ContactButton {
+  background-color: #555aaa;
+  color: #fff;
   font-weight: bold;
   font-size: 30px;
-
-  color: #ffffff;
-  background: #555AAA;
+  padding: 2rem 8rem;
   border-radius: 30px;
+}
+
+.ContactText {
+  color: #55aaff;
+  font-weight: bold;
+  font-size: 34px;
+  margin-bottom: 6rem;
+}
+
+@media screen and (max-width: 576px) {
+  .ContactButton {
+    padding: 1rem 2rem;
+  }
 }
 
 </style>
