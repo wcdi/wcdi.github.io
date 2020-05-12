@@ -30,7 +30,7 @@ export default {};
 </script>
 
 
-<style>
+<style scoped>
 /* ここにCSS書いてね */
 .Container {
   background-color : rgb(236, 235, 235);
@@ -43,10 +43,11 @@ export default {};
 }
 /*うまくpaddingできていない。*/
 .main {
-  padding: 1rem,0,0,0.5rem;
+  padding: 5rem 1rem 0 0;
 }
 .side{
-  align-content: right;
+
+  align-content: flex-end;
   height: auto;
 }
 .contents  {
