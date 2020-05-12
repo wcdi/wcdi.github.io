@@ -1,7 +1,26 @@
 <template>
   <!-- ここにHTML書いてね -->
-  <div class="hoge">
-    <p>hoge</p>
+  <div class="Container">
+    <div class = "header">
+      <h1>情報技術研究部？</h1>
+      <br>
+      <h1>ITRC? WCDI?</h1>
+    </div>
+
+    <div class="contents">
+      <div class="main">
+        <p>
+          情報技術研究部は日本工学院八王子専門学校の部活動です<br>
+          [WCDIの説明]<br>
+          [ITRCの説明]<br>
+          [現在活動していること]
+        </p>
+      </div>
+      <div class="side">
+        <img src="./../assets/サンプル画像.jpeg" alt="ITRCの関係図" title="ITRC関係図" >
+      </div>
+    </div>
+    
   </div>
 </template>
 
@@ -11,12 +30,36 @@ export default {};
 </script>
 
 
-
-
 <style>
 /* ここにCSS書いてね */
-
-.hoge {
-  width: 100%;
+.Container {
+  background-color : rgb(236, 235, 235);
+  padding: 3rem;
+  max-width: 1920px;
+  max-height: 1080px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+/*うまくpaddingできていない。*/
+.main {
+  padding: 1rem,0,0,0.5rem;
+}
+.side{
+  align-content: right;
+  height: auto;
+}
+.contents  {
+  padding: 2rem 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.side > img {
+width:100%;
+max-width: 100%;
+height: auto;
+}
+.header > h1{
+  font-size: 5rem;
 }
 </style>
