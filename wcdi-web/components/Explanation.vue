@@ -37,13 +37,14 @@ export default {};
   padding: 3rem;
   max-width: 1920px;
   max-height: 1080px;
+  min-width: 850px;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
 }
 /*うまくpaddingできていない。*/
 .main {
-  padding: 5rem 1rem 0 0;
+  padding: 3rem 1rem 0 0;
 }
 .side{
 
@@ -53,7 +54,7 @@ export default {};
 .contents  {
   padding: 2rem 3rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .side > img {
 width:100%;
