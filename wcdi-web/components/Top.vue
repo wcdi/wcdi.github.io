@@ -32,14 +32,13 @@ export default {};
   background-image: url(../static/wcdi-top1-before.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgb(47, 47, 47);
+  background-color: #2b2b2b;
   background-blend-mode: soft-light;
 }
 
 #topText {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+  display: flex;
+  justify-content: space-around;
 }
 
 #topTitleText {
@@ -54,7 +53,7 @@ export default {};
   display: flex;
   flex-direction: column;
   font-size: 4rem;
-  margin: 12rem 0 4rem 1rem;
+  margin: 12rem 1rem 4rem 0;
 }
 
 .topExplanation {
