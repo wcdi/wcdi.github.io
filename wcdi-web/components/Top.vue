@@ -1,20 +1,20 @@
 <template>
-  <section id="topText" class="topImage">
-    <div id="topTitleText">
+  <section class="top-section top-image">
+    <div class="top-title">
       ITRC
     </div>
-    <ul id="topExplanationBox">
-      <li>
-        <div class="topExplanation" id="topInformation"><span id="topSpan">I</span>nformation</div>
+    <ul class="top-ul">
+      <li class="top-li">
+        <div><span class="top-span information">I</span>nformation</div>
       </li>
-      <li>
-        <div class="topExplanation" id="topTechnology"><span id="topSpan">T</span>echnology</div>
+      <li class="top-li">
+        <div><span class="top-span technology">T</span>echnology</div>
       </li>
-      <li>
-        <div class="topExplanation" id="topResearch"><span id="topSpan">R</span>esearch</div>
+      <li class="top-li">
+        <div><span class="top-span research">R</span>esearch</div>
       </li>
-      <li>
-        <div class="topExplanation" id="topClub"><span id="topSpan">C</span>lub</div>
+      <li class="top-li">
+        <div><span class="top-span">C</span>lub</div>
       </li>
     </ul>
   </section>
@@ -28,40 +28,81 @@ export default {};
 
 
 <style>
-.topImage {
-  background-image: url(../static/wcdi-top1-before.jpg);
+.top-image {
+  background-image: url(../static/wcdi-top1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center top;
   background-color: #2b2b2b;
   background-blend-mode: soft-light;
 }
 
-#topText {
+.top-section {
   display: flex;
   justify-content: space-around;
 }
 
-#topTitleText {
+.top-title {
   font-size: 12rem;
   padding: 1rem;
   margin: 1rem 0 0 5rem;
   color: #FFFFFF;
 }
 
-#topExplanationBox {
+.top-ul {
   list-style: none;
   display: flex;
   flex-direction: column;
   font-size: 4rem;
-  margin: 12rem 1rem 4rem 0;
+  margin: 6rem 0;
+  padding: 40px;
 }
 
-.topExplanation {
+.top-li {
   color: #FFFFFF;
 }
 
-#topSpan {
+.top-span {
   color: #F80C0C;
   margin-right: 0.5rem;
+}
+
+.information {
+  margin-left: 0.6rem;
+}
+
+.technology {
+  margin-left: 0.2rem;
+}
+
+.research {
+  margin-left: 0.2rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .top-section {
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+  }
+  .top-title {
+    font-size: 6.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  .top-ul {
+    font-size: 2rem;
+    margin: 0 0 1.55rem 0;
+    padding: 0;
+  }
+  .information {
+    margin-left: 0.3rem;
+  }
+  .technology {
+    margin-left: 0.1rem;
+  }
+  .research {
+    margin-left: 0.1rem;
+  }
 }
 </style>
