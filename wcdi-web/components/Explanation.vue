@@ -42,12 +42,10 @@ export default {};
   margin-left: auto;
   text-align: center;
 }
-/*うまくpaddingできていない。*/
 .main {
   padding: 3rem 1rem 0 0;
 }
 .side{
-
   align-content: flex-end;
   height: auto;
 }
@@ -57,9 +55,9 @@ export default {};
   justify-content: space-around;
 }
 .side > img {
-width:100%;
-max-width: 100%;
-height: auto;
+  width:100%;
+  max-width: 100%;
+  height: auto;
 }
 .header > h1{
   font-size: 5rem;
