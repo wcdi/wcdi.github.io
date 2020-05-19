@@ -1,44 +1,68 @@
 <template>
-  <header class="header-background">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <header class="header-background sp-container">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <nav>
       <ul class="header-ul">
         <li class="header-li">
-          <a href="#" class="header-text header-top"><i class="material-icons">home</i> Top</a>
+          <a href="#" class="header-text header-top">
+            <i class="material-icons">home</i> Top
+          </a>
         </li>
         <li class="header-li margin-left">
-          <a href="#" class="header-text header-itrc"><i class="material-icons">computer</i> ITRCとは</a>
+          <a href="#" class="header-text header-itrc">
+            <i class="material-icons">computer</i> ITRCとは
+          </a>
         </li>
         <li class="header-li margin-left">
-          <a href="#" class="header-text header-news"><i class="material-icons">volume_up</i> お知らせ</a>
+          <a href="#" class="header-text header-news">
+            <i class="material-icons">volume_up</i> お知らせ
+          </a>
         </li>
         <li class="header-li margin-left">
-          <a href="#" class="header-text header-access"><i class="material-icons">location_on</i> アクセス</a>
+          <a href="#" class="header-text header-access">
+            <i class="material-icons">location_on</i> アクセス
+          </a>
         </li>
         <li class="header-li margin-left margin-right">
-          <a href="#" class="header-text header-form"><i class="material-icons">contact_mail</i> 連絡先</a>
+          <a href="#" class="header-text header-form">
+            <i class="material-icons">contact_mail</i> 連絡先
+          </a>
         </li>
       </ul>
       <div class="nav-drawer">
-        <input id="nav-input" type="checkbox" class="nav-unshown">
-        <label id="nav-open" for="nav-input"><span><i class="material-icons humberger-menu">menu</i> </span></label>
+        <input id="nav-input" type="checkbox" class="nav-unshown" />
+        <label id="nav-open" for="nav-input">
+          <span>
+            <i class="material-icons humberger-menu">menu</i>
+          </span>
+        </label>
         <label class="nav-unshown" id="nav-close" for="nav-input"></label>
         <div id="nav-content">
           <ul class="header-mobile-ul">
             <li class="header-li">
-              <a href="#" class="header-text header-top"><i class="material-icons">home</i> Top</a>
+              <a href="#" class="header-text header-top">
+                <i class="material-icons">home</i> Top
+              </a>
             </li>
             <li class="header-li">
-              <a href="#" class="header-text header-itrc"><i class="material-icons">computer</i> ITRCとは</a>
+              <a href="#" class="header-text header-itrc">
+                <i class="material-icons">computer</i> ITRCとは
+              </a>
             </li>
             <li class="header-li">
-              <a href="#" class="header-text header-news"><i class="material-icons">volume_up</i> お知らせ</a>
+              <a href="#" class="header-text header-news">
+                <i class="material-icons">volume_up</i> お知らせ
+              </a>
             </li>
             <li class="header-li">
-              <a href="#" class="header-text header-access"><i class="material-icons">location_on</i> アクセス</a>
+              <a href="#" class="header-text header-access">
+                <i class="material-icons">location_on</i> アクセス
+              </a>
             </li>
             <li class="header-li">
-              <a href="#" class="header-text header-form"><i class="material-icons">contact_mail</i> 連絡先</a>
+              <a href="#" class="header-text header-form">
+                <i class="material-icons">contact_mail</i> 連絡先
+              </a>
             </li>
           </ul>
         </div>
@@ -52,26 +76,25 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'Material Icons';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
-    src: local('Material Icons'),
-        local('MaterialIcons-Regular'),
-        url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
-        url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
-        url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local("Material Icons"), local("MaterialIcons-Regular"),
+    url(https://example.com/MaterialIcons-Regular.woff2) format("woff2"),
+    url(https://example.com/MaterialIcons-Regular.woff) format("woff"),
+    url(https://example.com/MaterialIcons-Regular.ttf) format("truetype");
 }
 
 .material-icons {
-  font-family: 'Material Icons';
+  font-family: "Material Icons";
   font-weight: normal;
   font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
+  font-size: 24px; /* Preferred icon size */
   display: inline-block;
   line-height: 1;
   text-transform: none;
@@ -86,12 +109,12 @@ export default {};
   /* Support for Firefox. */
   -moz-osx-font-smoothing: grayscale;
   /* Support for IE. */
-  font-feature-settings: 'liga';
+  font-feature-settings: "liga";
 }
 
 .header-background {
   height: 81px;
-  background: #201D1D;
+  background: #201d1d;
 }
 
 .header-ul {
@@ -110,6 +133,12 @@ export default {};
 .header-text {
   color: #ffffff;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.header-text > i {
+  margin-right: 0.5rem;
 }
 
 .margin-left {
@@ -125,6 +154,10 @@ export default {};
 }
 
 @media screen and (max-width: 1000px) {
+  .sp-container {
+    position: fixed;
+    width: 100%;
+  }
   .header-ul {
     display: none;
   }
@@ -147,7 +180,9 @@ export default {};
     height: 22px;
     vertical-align: middle;
   }
-  .humberger-menu #nav-open span, #nav-open span:before, #nav-open span:after {
+  .humberger-menu #nav-open span,
+  #nav-open span:before,
+  #nav-open span:after {
     display: flex;
   }
   #nav-open span:before {
@@ -166,7 +201,7 @@ export default {};
     height: 100%;
     background-color: #000000;
     opacity: 0;
-    transition: .3s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
   #nav-content {
     overflow: auto;
@@ -177,14 +212,14 @@ export default {};
     width: 90%;
     max-width: 59.2vw;
     height: 100%;
-    background-color: #201D1D;
-    transition: .3s ease-in-out;
+    background-color: #201d1d;
+    transition: 0.3s ease-in-out;
     -webkit-transform: translateX(105%);
     transform: translateX(105%);
   }
   #nav-input:checked ~ #nav-close {
     display: block;
-    opacity: .5;
+    opacity: 0.5;
   }
   #nav-input:checked ~ #nav-content {
     -webkit-transform: translateX(0%);

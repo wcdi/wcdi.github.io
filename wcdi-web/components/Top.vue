@@ -1,28 +1,42 @@
 <template>
-  <section class="top-section top-image">
-    <div class="top-title">
-      ITRC
-    </div>
-    <ul class="top-ul">
-      <li class="top-li">
-        <div><span class="top-span information">I</span>nformation</div>
-      </li>
-      <li class="top-li">
-        <div><span class="top-span technology">T</span>echnology</div>
-      </li>
-      <li class="top-li">
-        <div><span class="top-span research">R</span>esearch</div>
-      </li>
-      <li class="top-li">
-        <div><span class="top-span">C</span>lub</div>
-      </li>
-    </ul>
-  </section>
+  <div>
+    <Header />
+    <section class="top-section top-image">
+      <div class="top-title">ITRC</div>
+      <ul class="top-ul">
+        <li class="top-li">
+          <div>
+            <span class="top-span information">I</span>nformation
+          </div>
+        </li>
+        <li class="top-li">
+          <div>
+            <span class="top-span technology">T</span>echnology
+          </div>
+        </li>
+        <li class="top-li">
+          <div>
+            <span class="top-span research">R</span>esearch
+          </div>
+        </li>
+        <li class="top-li">
+          <div>
+            <span class="top-span">C</span>lub
+          </div>
+        </li>
+      </ul>
+    </section>
+  </div>
 </template>
 
 <script>
 // 現状ここは無視でいいよ
-export default {};
+import Header from "./Header";
+export default {
+  components: {
+    Header
+  }
+};
 </script>
 
 
@@ -46,7 +60,7 @@ export default {};
   font-size: 12rem;
   padding: 1rem;
   margin: 1rem 0 0 5rem;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .top-ul {
@@ -59,11 +73,11 @@ export default {};
 }
 
 .top-li {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .top-span {
-  color: #F80C0C;
+  color: #f80c0c;
   margin-right: 0.5rem;
 }
 
@@ -84,6 +98,7 @@ export default {};
     flex-direction: column;
     align-items: center;
     align-content: space-around;
+    padding-top: 81px;
   }
   .top-title {
     font-size: 6.5rem;
