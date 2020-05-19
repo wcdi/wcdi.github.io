@@ -65,8 +65,6 @@ export default {};
 
 
 <style scoped>
-
-</style>>
 /* ここにCSS書いてね */
 footer {
   width: 100%;
