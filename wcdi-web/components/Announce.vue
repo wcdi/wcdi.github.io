@@ -4,15 +4,6 @@
     <h2 class="announceTitle">最新のお知らせ</h2>
     <div class="Container">
       <div class="content">
-        <!-- <dl id="announce-list">
-          <template v-for="announcement in announcements.slice().reverse()">
-            <dt :key="`first-${announcement.id}`">{{ announcement.id }}</dt>
-            <dd :key="`second-${announcement.id}`">{{ announcement.title }}</dd>
-            <dd :key="`third-${announcement.id}`" id="announce-list-item-date">
-              {{ announcement.date }}
-            </dd>
-          </template>
-        </dl> -->
         <div
           v-for="announcement in announcements.slice().reverse()"
           :key="announcement.id"
