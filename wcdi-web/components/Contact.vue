@@ -1,12 +1,12 @@
 <template>
   <div class="Container">
     <p class="ContactText">コンタクト</p>
-    <button
+    <a
       class="ContactButton"
-      onclick="location.href='https://docs.google.com/forms/d/15WcQIkXtw05Mp33BrtDshMIHhfjJwTIquOIZpzQ69ug/edit'"
-    >
-      Googleフォームへ
-    </button>
+      href="https://docs.google.com/forms/d/15WcQIkXtw05Mp33BrtDshMIHhfjJwTIquOIZpzQ69ug/edit"
+      target="_blank"
+      rel="noopener"
+    >Googleフォームへ</a>
   </div>
 </template>
 
@@ -45,5 +45,4 @@ export default {};
     padding: 1rem 2rem;
   }
 }
-
 </style>
