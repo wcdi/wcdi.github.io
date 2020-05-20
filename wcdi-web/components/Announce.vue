@@ -69,7 +69,6 @@ export default {
   height: 3rem;
   align-items: center;
   border: 1px solid;
-  margin: 0 5rem 0 10rem;
 }
 .annouce-list > p:nth-child(1) {
   flex: 1;
@@ -103,7 +102,6 @@ export default {
   flex: 1;
   height: 80vh;
   overflow-y: auto;
-  margin: 0 10rem 0 5rem;
 }
 
 .announceTitle {
