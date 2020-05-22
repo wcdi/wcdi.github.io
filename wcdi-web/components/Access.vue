@@ -69,9 +69,6 @@
     flex-direction: column;
   }
 
-  .MapContents {
-  }
-
   .MapItem {
     width: 50%;
     display: flex;

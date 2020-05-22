@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div>
-      <Header />
+      <Top />
       <Explanation />
       <Announce />
       <Access />
@@ -12,6 +12,7 @@
 </template>
 
 <script>
+import Top from "~/components/Top.vue";
 import Access from "~/components/Access.vue";
 import Announce from "~/components/Announce.vue";
 import Contact from "~/components/Contact.vue";
@@ -21,6 +22,7 @@ import Header from "~/components/Header.vue";
 
 export default {
   components: {
+    Top,
     Access,
     Announce,
     Contact,
