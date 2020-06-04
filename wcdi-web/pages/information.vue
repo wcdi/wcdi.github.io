@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header message="コミックマーケットC98にサークル参加します"></Header>
+    <Header pageTitle="コミックマーケットC98にサークル参加します"></Header>
   </div>
 </template>
 

@@ -1,13 +1,13 @@
 <template>
   <div>
-    <p>{{ message }}</p>
+    <p>{{ pageTitle }}</p>
   </div>
 </template>
 
 <script>
   export default {
     name: "Header",
-    props: ['message']
+    props: ['pageTitle']
   }
 </script>
 

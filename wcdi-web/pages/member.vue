@@ -1,5 +1,5 @@
 <template>
-  <Header message="メンバー"></Header>
+  <Header pageTitle="メンバー"></Header>
 </template>
 
 <script>

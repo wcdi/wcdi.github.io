@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header message="活動ログ"></Header>
+    <Header pageTitle="活動ログ"></Header>
   </div>
 </template>
 
