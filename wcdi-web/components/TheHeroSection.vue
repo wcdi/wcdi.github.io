@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Header />
     <section class="top-section top-image">
       <div class="top-title">ITRC</div>
       <ul class="top-ul">
@@ -31,12 +30,7 @@
 
 <script>
 // 現状ここは無視でいいよ
-import Header from "./Header";
-export default {
-  components: {
-    Header
-  }
-};
+export default {};
 </script>
 
 
