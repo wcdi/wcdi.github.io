@@ -98,7 +98,7 @@ footer {
 .footer-tops,
 .footer-searches,
 .footer-links {
-  padding-left: 0px;
+  padding-left: 0;
   margin: 20px auto;
   list-style: none;
 }

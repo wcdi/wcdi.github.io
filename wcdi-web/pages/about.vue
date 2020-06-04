@@ -1,9 +1,17 @@
 <template>
-  <div id="title"></div>
+  <div>
+    <Header message="About Us"></Header>
+  </div>
 </template>
 
 <script>
-  export default {};
+  import Header from '../components/Header';
+  export default {
+    name: "about",
+    components: {
+      Header
+    }
+  }
 </script>
 
 <style></style>

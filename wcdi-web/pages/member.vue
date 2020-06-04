@@ -1,10 +1,14 @@
 <template>
-  <div id="title"></div>
+  <Header message="メンバー"></Header>
 </template>
 
 <script>
+  import Header from '../components/Header';
   export default {
-    name: "member"
+    name: "member",
+    components: {
+      Header
+    }
   }
 </script>
 

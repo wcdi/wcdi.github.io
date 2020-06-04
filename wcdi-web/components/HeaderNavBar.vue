@@ -77,9 +77,8 @@ export default {};
 </script>
 
 <style scoped>
-@charset "UTF-8";
 
-@font-face {
+  @font-face {
   font-family: "Material Icons";
   font-style: normal;
   font-weight: 400;
@@ -180,7 +179,7 @@ export default {};
     height: 22px;
     vertical-align: middle;
   }
-  .humberger-menu #nav-open span,
+  .hamburger-menu #nav-open span,
   #nav-open span:before,
   #nav-open span:after {
     display: flex;
