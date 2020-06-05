@@ -29,7 +29,7 @@ export default {};
 <style scoped>
 /* ここにCSS書いてね */
 .container {
-  background-color: rgb(236, 235, 235);
+  background-color: #ffffff;
   padding: 2rem;
   text-align: center;
 }
