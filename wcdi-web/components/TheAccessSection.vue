@@ -50,11 +50,11 @@
   /* moke */
   .AccessSection {
     width: 100%;
-    background-color: #1d3156;
+    background-color: #f5f5f5f5;
   }
 
   .AccessContainer {
-    color: #fff;
+    color: #000000;
     text-align: center;
     padding: 1em;
     margin: 2em auto 1em;
@@ -101,7 +101,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #000000;
   }
 
   .RoomContents {
