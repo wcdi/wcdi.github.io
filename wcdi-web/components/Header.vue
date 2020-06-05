@@ -5,12 +5,12 @@
       <ul class="header-ul">
         <li class="header-li">
           <a href="#" class="header-text header-top">
-            <i class="material-icons">home</i> Top
+            <i class="material-icons">home</i> TOP
           </a>
         </li>
         <li class="header-li margin-left">
           <a href="#" class="header-text header-itrc">
-            <i class="material-icons">computer</i> ITRCとは
+            <i class="material-icons">computer</i> About Us
           </a>
         </li>
         <li class="header-li margin-left">
@@ -20,12 +20,12 @@
         </li>
         <li class="header-li margin-left">
           <a href="#" class="header-text header-access">
-            <i class="material-icons">location_on</i> アクセス
+            <i class="material-icons">group</i> メンバー
           </a>
         </li>
         <li class="header-li margin-left margin-right">
           <a href="#" class="header-text header-form">
-            <i class="material-icons">contact_mail</i> 連絡先
+            <i class="material-icons">pets</i> 活動ログ
           </a>
         </li>
       </ul>
@@ -41,12 +41,12 @@
           <ul class="header-mobile-ul">
             <li class="header-li">
               <a href="#" class="header-text header-top">
-                <i class="material-icons">home</i> Top
+                <i class="material-icons">home</i> TOP
               </a>
             </li>
             <li class="header-li">
               <a href="#" class="header-text header-itrc">
-                <i class="material-icons">computer</i> ITRCとは
+                <i class="material-icons">computer</i> About Us
               </a>
             </li>
             <li class="header-li">
@@ -56,12 +56,12 @@
             </li>
             <li class="header-li">
               <a href="#" class="header-text header-access">
-                <i class="material-icons">location_on</i> アクセス
+                <i class="material-icons">group</i> メンバー
               </a>
             </li>
             <li class="header-li">
               <a href="#" class="header-text header-form">
-                <i class="material-icons">contact_mail</i> 連絡先
+                <i class="material-icons">pets</i> 活動ログ
               </a>
             </li>
           </ul>
@@ -122,7 +122,6 @@ export default {};
   display: flex;
   justify-content: center;
   font-size: 1.25rem;
-  text-transform: uppercase;
 }
 
 .header-li {
@@ -231,7 +230,6 @@ export default {};
     display: flex;
     flex-direction: column;
     font-size: 1.25rem;
-    text-transform: uppercase;
     margin: 2rem 0 2rem 6rem;
     padding-right: 40px;
   }
