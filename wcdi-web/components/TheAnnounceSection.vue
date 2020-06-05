@@ -48,6 +48,7 @@ export default {
 
 #announce {
   padding: 1rem;
+  background-color: #f5f5f5;
 }
 
 .Container {
