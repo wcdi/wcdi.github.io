@@ -14,11 +14,6 @@
           </a>
         </li>
         <li class="header-li margin-left">
-          <a href="#" class="header-text header-news">
-            <i class="material-icons">volume_up</i> お知らせ
-          </a>
-        </li>
-        <li class="header-li margin-left">
           <a href="#" class="header-text header-access">
             <i class="material-icons">group</i> メンバー
           </a>
@@ -47,11 +42,6 @@
             <li class="header-li">
               <a href="#" class="header-text header-itrc">
                 <i class="material-icons">computer</i> About Us
-              </a>
-            </li>
-            <li class="header-li">
-              <a href="#" class="header-text header-news">
-                <i class="material-icons">volume_up</i> お知らせ
               </a>
             </li>
             <li class="header-li">
