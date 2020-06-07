@@ -1,36 +1,38 @@
 <template>
   <section class="container">
     <div>
-      <Top />
-      <Explanation />
-      <Announce />
-      <Access />
-      <Contact />
-      <Footer />
+      <HeaderNavBar/>
+      <TheHeroSection/>
+      <TheExplanationSection/>
+      <TheAnnounceSection/>
+      <TheAccessSection/>
+      <TheContactSection/>
+      <Footer/>
     </div>
   </section>
 </template>
 
 <script>
-import Top from "~/components/Top.vue";
-import Access from "~/components/Access.vue";
-import Announce from "~/components/Announce.vue";
-import Contact from "~/components/Contact.vue";
-import Explanation from "~/components/Explanation.vue";
-import Footer from "~/components/Footer.vue";
-import Header from "~/components/Header.vue";
+  import Footer from "~/components/Footer.vue";
+  import HeaderNavBar from "~/components/HeaderNavBar.vue";
+  import TheAccessSection from "~/components/TheAccessSection";
+  import TheAnnounceSection from "~/components/TheAnnounceSection.vue";
+  import TheContactSection from "~/components/TheContactSection.vue";
+  import TheExplanationSection from "~/components/TheExplanationSection.vue";
+  import TheHeroSection from "~/components/TheHeroSection";
 
-export default {
-  components: {
-    Top,
-    Access,
-    Announce,
-    Contact,
-    Explanation,
-    Footer,
-    Header
-  }
-};
+
+  export default {
+    components: {
+      TheAnnounceSection,
+      TheAccessSection,
+      TheHeroSection,
+      TheExplanationSection,
+      TheContactSection,
+      Footer,
+      HeaderNavBar
+    }
+  };
 </script>
 
 <style></style>

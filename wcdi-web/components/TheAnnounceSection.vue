@@ -8,7 +8,7 @@
           v-for="announcement in announcements.slice().reverse()"
           :key="announcement.id"
         >
-          <div class="annouce-list">
+          <div class="announce-list">
             <p>{{ announcement.id }}</p>
             <p>{{ announcement.title }}</p>
             <p>{{ announcement.date }}</p>
@@ -55,13 +55,13 @@ export default {
   justify-content: space-around;
 }
 
-.annouce-list {
+.announce-list {
   display: flex;
   height: 3rem;
   align-items: center;
   border: 1px solid;
 }
-.annouce-list > p:nth-child(1) {
+.announce-list > p:nth-child(1) {
   flex: 1;
   text-align: center;
   height: 100%;
@@ -70,11 +70,11 @@ export default {
   justify-content: center;
   border-right: 1px solid;
 }
-.annouce-list > p:nth-child(2) {
+.announce-list > p:nth-child(2) {
   flex: 7;
   padding: 0 0.5rem;
 }
-.annouce-list > p:nth-child(3) {
+.announce-list > p:nth-child(3) {
   flex: 3;
   text-align: center;
   height: 100%;
