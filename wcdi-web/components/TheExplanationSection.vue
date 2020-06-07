@@ -3,7 +3,7 @@
   <div class="SectionContainer">
     <div class="Contents">
       <div id="ITRC_Title">
-        <p>情報技術研究部？</p>
+        <p>情報技術研究部</p>
       </div>
       <div class="ArticleContainer">
         <div>
