@@ -10,8 +10,10 @@
           :key="announcement.id"
         >
           <div class="AnnounceItem">
-            <p class="AnnounceTitle">{{ announcement.title }}</p>
-            <p class="AnnounceDate">{{ announcement.date }}</p>
+            <a v-bind:href="announcement.url">
+              <p class="AnnounceTitle">{{ announcement.title }}</p>
+              <p class="AnnounceDate">{{ announcement.date }}</p>
+            </a>
           </div>
         </div>
       </div>
@@ -73,8 +75,13 @@
     padding: 8px;
   }
 
+  .AnnounceItem > a {
+    text-decoration: none;
+  }
+
   .AnnounceTitle {
     font-size: 18px;
+    color: #201d1d;
     height: 44px;
     line-height: 22px;
   }
