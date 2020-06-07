@@ -6,7 +6,7 @@
       <div class="AnnounceContainer">
         <p id="NewAnnouncementsText">新着お知らせ</p>
         <div
-          v-for="announcement in announcements.reverse().slice(0,5)"
+          v-for="announcement in announcements.slice(-5).reverse()"
           :key="announcement.id"
         >
           <div class="AnnounceItem">
