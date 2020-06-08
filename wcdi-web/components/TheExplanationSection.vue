@@ -10,6 +10,9 @@
           <p>情報技術研究部は日本工学院八王子専門学校にて活動中のサークルです</p>
           <p>それぞれ高い目標を持つ部員が集まり活動しています</p>
           <p>定期的にもくもく会, LT大会, コンテストの参加を行い日々研鑽を重ねています</p>
+          <div class="AboutUsButton">
+            <a id="ButtonText" href="./about">about us ></a>
+          </div>
         </div>
       </div>
     </div>
@@ -35,5 +38,17 @@
   .ArticleContainer {
     margin-top: 4rem;
     font-size: 22px;
+  }
+
+  .AboutUsButton {
+    margin-top: 1rem;
+    text-align: right;
+    width: 80%;
+  }
+
+  #ButtonText {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
   }
 </style>
