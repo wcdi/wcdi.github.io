@@ -1,1 +1,11 @@
 /* ホームページのCSS */
+.SectionContainer {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
+
+.SectionTitle {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 4rem;
+}

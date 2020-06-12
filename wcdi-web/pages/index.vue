@@ -35,4 +35,6 @@
   };
 </script>
 
-<style></style>
+<style>
+  @import "../assets/css/index.css";
+</style>

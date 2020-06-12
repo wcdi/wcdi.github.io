@@ -1,62 +1,62 @@
 [
-    {
-        "id": 1,
-        "title": "hogehoge",
-        "url": "/announcements/hogehoge",
-        "date": "2020/05/10(Sun.)"
-    },
-    {
-        "id": 2,
-        "title": "hogefuga",
-        "url": "/announcements/hogefuga",
-        "date": "2020/05/10(Sun.)"
-    },
-    {
-        "id": 3,
-        "title": "hogepiyo",
-        "url": "/announcements/hogepiyo",
-        "date": "2020/05/10(Sun.)"
-    },
-    {
-        "id": 4,
-        "title": "fugapiyo",
-        "url": "/announcements/fugapiyo",
-        "date": "2020/05/10(Sun.)"
-    },
-    {
-        "id": 5,
-        "title": "piyopiyo",
-        "url": "/announcements/piyopiyo",
-        "date": "2020/05/10(Sun.)"
-    },
-    {
-        "id": 6,
-        "title": "piyopiyo",
-        "url": "/announcements/piyopiyo",
-        "date": "2020/05/10(Sun.)"
-    },
-    {
-        "id": 7,
-        "title": "piyopiyo",
-        "url": "/announcements/piyopiyo",
-        "date": "2020/05/10(Sun.)"
-    },
-    {
-        "id": 8,
-        "title": "piyopiyo",
-        "url": "/announcements/piyopiyo",
-        "date": "2020/05/10(Sun.)"
-    },
-    {
-        "id": 9,
-        "title": "piyopiyo",
-        "url": "/announcements/piyopiyo",
-        "date": "2020/05/10(Sun.)"
-    },
-    {
-        "id": 10,
-        "title": "piyopiyo",
-        "url": "/announcements/piyopiyo",
-        "date": "2020/05/10(Sun.)"
-    }
+  {
+    "id": 1,
+    "title": "hogehoge",
+    "url": "/announcements/hogehoge",
+    "date": "2020/05/10(Sun.)"
+  },
+  {
+    "id": 2,
+    "title": "ああああああああああああああああああああああああああああああああああああああああああああああああああああ",
+    "url": "/announcements/hogefuga",
+    "date": "2020/05/10(Sun.)"
+  },
+  {
+    "id": 3,
+    "title": "hogepiyo",
+    "url": "/announcements/hogepiyo",
+    "date": "2020/05/10(Sun.)"
+  },
+  {
+    "id": 4,
+    "title": "fugapiyo",
+    "url": "/announcements/fugapiyo",
+    "date": "2020/05/10(Sun.)"
+  },
+  {
+    "id": 5,
+    "title": "コミックマーケットC98にサークル参加します",
+    "url": "/announcements/piyopiyo",
+    "date": "2020/05/10(Sun.)"
+  },
+  {
+    "id": 6,
+    "title": "piyopiyo",
+    "url": "/announcements/piyopiyo",
+    "date": "2020/05/10(Sun.)"
+  },
+  {
+    "id": 7,
+    "title": "piyopiyo",
+    "url": "/announcements/piyopiyo",
+    "date": "2020/05/10(Sun.)"
+  },
+  {
+    "id": 8,
+    "title": "piyopiyo",
+    "url": "/announcements/piyopiyo",
+    "date": "2020/05/10(Sun.)"
+  },
+  {
+    "id": 9,
+    "title": "piyopiyo",
+    "url": "/announcements/piyopiyo",
+    "date": "2020/05/10(Sun.)"
+  },
+  {
+    "id": 10,
+    "title": "最新",
+    "url": "/announcements/piyopiyo",
+    "date": "2020/05/10(Sun.)"
+  }
 ]
