@@ -28,7 +28,7 @@
         <input id="nav-input" type="checkbox" class="nav-unshown" />
         <label id="nav-open" for="nav-input">
           <span>
-            <i class="material-icons humberger-menu">menu</i>
+            <i class="material-icons hamburger-menu">menu</i>
           </span>
         </label>
         <label class="nav-unshown" id="nav-close" for="nav-input"></label>
