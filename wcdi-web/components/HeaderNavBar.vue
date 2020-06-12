@@ -4,28 +4,23 @@
     <nav>
       <ul class="header-ul">
         <li class="header-li">
-          <a href="#" class="header-text header-top">
+          <a href="#" class="header-text">
             <i class="material-icons">home</i> Top
           </a>
         </li>
         <li class="header-li margin-left">
-          <a href="#" class="header-text header-itrc">
-            <i class="material-icons">computer</i> ITRCとは
+          <a href="#" class="header-text">
+            <i class="material-icons">computer</i> About Us
           </a>
         </li>
         <li class="header-li margin-left">
-          <a href="#" class="header-text header-news">
-            <i class="material-icons">volume_up</i> お知らせ
-          </a>
-        </li>
-        <li class="header-li margin-left">
-          <a href="#" class="header-text header-access">
-            <i class="material-icons">location_on</i> アクセス
+          <a href="#" class="header-text">
+            <i class="material-icons">group</i> メンバー
           </a>
         </li>
         <li class="header-li margin-left margin-right">
-          <a href="#" class="header-text header-form">
-            <i class="material-icons">contact_mail</i> 連絡先
+          <a href="#" class="header-text">
+            <i class="material-icons">pets</i> 活動ログ
           </a>
         </li>
       </ul>
@@ -40,28 +35,23 @@
         <div id="nav-content">
           <ul class="header-mobile-ul">
             <li class="header-li">
-              <a href="#" class="header-text header-top">
+              <a href="#" class="header-text">
                 <i class="material-icons">home</i> Top
               </a>
             </li>
             <li class="header-li">
-              <a href="#" class="header-text header-itrc">
-                <i class="material-icons">computer</i> ITRCとは
+              <a href="#" class="header-text">
+                <i class="material-icons">computer</i> About Us
               </a>
             </li>
             <li class="header-li">
-              <a href="#" class="header-text header-news">
-                <i class="material-icons">volume_up</i> お知らせ
+              <a href="#" class="header-text">
+                <i class="material-icons">group</i> メンバー
               </a>
             </li>
             <li class="header-li">
-              <a href="#" class="header-text header-access">
-                <i class="material-icons">location_on</i> アクセス
-              </a>
-            </li>
-            <li class="header-li">
-              <a href="#" class="header-text header-form">
-                <i class="material-icons">contact_mail</i> 連絡先
+              <a href="#" class="header-text">
+                <i class="material-icons">pets</i> 活動ログ
               </a>
             </li>
           </ul>
@@ -121,7 +111,6 @@ export default {};
   display: flex;
   justify-content: center;
   font-size: 1.25rem;
-  text-transform: uppercase;
 }
 
 .header-li {
@@ -230,7 +219,6 @@ export default {};
     display: flex;
     flex-direction: column;
     font-size: 1.25rem;
-    text-transform: uppercase;
     margin: 2rem 0 2rem 6rem;
     padding-right: 40px;
   }
