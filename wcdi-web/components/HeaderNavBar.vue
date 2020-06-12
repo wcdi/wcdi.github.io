@@ -5,7 +5,7 @@
       <ul class="header-ul">
         <li class="header-li">
           <a href="#" class="header-text">
-            <i class="material-icons">home</i> Top
+            <i class="material-icons">home</i> TOP
           </a>
         </li>
         <li class="header-li margin-left">
@@ -36,7 +36,7 @@
           <ul class="header-mobile-ul">
             <li class="header-li">
               <a href="#" class="header-text">
-                <i class="material-icons">home</i> Top
+                <i class="material-icons">home</i> TOP
               </a>
             </li>
             <li class="header-li">
