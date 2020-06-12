@@ -52,6 +52,9 @@
           </ul>
         </section>
       </div>
+      <div class="copyright">
+        <p>Copyright© ITRC All Rights Reserved.</p>
+      </div>
     </div>
   </footer>
 </template>
@@ -69,7 +72,7 @@ export default {};
 footer {
   width: 100%;
   background-color: #5a5a5a;
-  padding: 2rem 0;
+  padding: 2rem 0 1rem 0;
 }
 .footer-content {
   margin-bottom: 2rem;
@@ -78,6 +81,7 @@ footer {
 .flex {
   display: flex;
   flex-flow: row wrap;
+  margin-bottom: 1rem;
 }
 
 .footer-subcontent {
@@ -126,5 +130,8 @@ footer {
 
 .footer-subtitle {
   font-size: 30px;
+}
+.copyright {
+  text-align: center
 }
 </style>

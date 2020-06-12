@@ -168,4 +168,16 @@
   /*  }*/
   /*}*/
 
+  @media screen and (max-width: 576px) {
+    .Contents {
+      display: block;
+    }
+    .AnnounceContainer {
+      width: 100%;
+    }
+    .TwitterContainer {
+      width: 100%;
+    }
+  }
+
 </style>
