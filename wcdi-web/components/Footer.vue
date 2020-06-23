@@ -11,14 +11,14 @@
         </div>
       </div>
       <div class="LinksContainer">
-        <div class="LinksContents">
+        <div class="LinksBlock">
           <p class="LinksTitleItem">Home</p>
           <p class="LinkTextItem">情報技術研究部</p>
           <p class="LinkTextItem">最新のお知らせ</p>
           <p class="LinkTextItem">アクセス</p>
           <p class="LinkTextItem">コンタクト</p>
         </div>
-        <div class="LinksContents">
+        <div class="LinksBlock">
           <p class="LinksTitleItem">Contents</p>
           <p class="LinkTextItem">
             <NuxtLink to="/about">About Us</NuxtLink>
@@ -96,13 +96,14 @@
   }
 
   .LinksContainer {
+    width: 50%;
     display: flex;
     flex-direction: row;
     color: white;
   }
 
-  .LinksContents {
-    margin-left: 100px;
+  .LinksBlock {
+    margin-left: 20%;
   }
 
   .LinksTitleItem {
@@ -128,4 +129,24 @@
     color: white;
   }
 
+  @media screen and (max-width: 784px) {
+    .SectionContainer {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .LogoContainer {
+      width: 100%;
+    }
+
+    .LinksContainer {
+      margin-top: 2rem;
+      width: 100%;
+    }
+
+    .LinksBlock {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 </style>
