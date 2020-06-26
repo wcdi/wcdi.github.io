@@ -13,8 +13,8 @@ npm の環境用意してね
 
 ```
 cd wcdi-web
-npm install //ライブラリのインストール
-npm run dev // ホットリロードだよ。
+npm install #ライブラリのインストール
+npm run dev #ホットリロードだよ。
 ```
 
 これで実行できる。 
