@@ -67,8 +67,7 @@ export default {};
 </script>
 
 <style scoped>
-
-  @font-face {
+@font-face {
   font-family: "Material Icons";
   font-style: normal;
   font-weight: 400;
@@ -123,26 +122,25 @@ export default {};
   text-decoration: none;
   display: flex;
   align-items: center;
-  transition:400ms ease all;
+  transition: 400ms ease all;
   text-decoration: none;
   position: relative;
   display: inline-block;
   text-decoration: none;
 }
-.header-text::after{
+.header-text::after {
   position: absolute;
   bottom: -4px;
   left: 0;
-  content: '';
+  content: "";
   width: 100%;
   height: 2px;
   background: rgb(187, 187, 187);
   transform: scale(0, 1);
   transform-origin: left top;
-  transition: transform .3s;
+  transition: transform 0.3s;
 }
 .header-text:hover::after {
-  
   transform: scale(1, 1);
 }
 
@@ -166,6 +164,7 @@ export default {};
   .sp-container {
     position: fixed;
     width: 100%;
+    z-index: 999;
   }
   .header-ul {
     display: none;
@@ -203,7 +202,6 @@ export default {};
   #nav-close {
     display: none;
     position: fixed;
-    z-index: 99;
     top: 0;
     right: 0;
     width: 100%;
@@ -217,7 +215,6 @@ export default {};
     position: fixed;
     top: 81px;
     right: 0;
-    z-index: 9999;
     width: 90%;
     max-width: 59.2vw;
     height: 100%;
@@ -240,7 +237,6 @@ export default {};
     display: flex;
     flex-direction: column;
     font-size: 1.25rem;
-    margin: 2rem 0 2rem 6rem;
     padding-right: 40px;
   }
 }
