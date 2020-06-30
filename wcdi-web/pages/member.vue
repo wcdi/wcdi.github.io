@@ -4,14 +4,24 @@
     <div class="Container">
       <h2 class="title">メンバー一覧</h2>
       <div class="content">
-        <p>情報技術研究部には日本工学院八王子専門学校の１年生から４年生が在籍しています。</p>
-        <p>情報技術を好きな学生が集まっており、日々自己研鑽に努めています。</p>
-
-        <p>メンバーにはITスペシャリスト科の学生が多いですが、日本工学院八王子専門学校の学生であればどなたでも参加することができます。</p>
-
-        <p>レベルとしては入学前から勉強していた人も、入学してからプログラミングを始めた人もいます。</p>
-        <p>サークル活動が終わったあとラーメンを食べに行ったり、休日に出かけることもあり部員同士仲が良いです。</p>
-        <p>興味がある方はぜひサークル棟３階304号室の情報技術研究部部室へ！ </p>
+        <p>
+          <span class="mobile-text">情報技術研究部には日本工学院八王子専門学校の</span><span class="mobile-text">1年生から4年生が在籍しています。</span>
+        </p>
+        <p>
+          <span class="mobile-text">情報技術を好きな学生が集まっており、</span><span class="mobile-text">日々自己研鑽に努めています。</span>
+        </p>
+        <p>
+          <span class="mobile-text">メンバーにはITスペシャリスト科の学生が多いですが、</span><span class="mobile-text">日本工学院八王子専門学校の学生であれば</span><span class="mobile-text">どなたでも参加することができます。</span>
+        </p>
+        <p>
+          <span class="mobile-text">レベルとしては入学前から勉強していた人も、</span><span class="mobile-text">入学してからプログラミングを始めた人もいます。</span>
+        </p>
+        <p>
+          <span class="mobile-text">サークル活動が終わったあとラーメンを食べに行ったり、</span><span class="mobile-text">休日に出かけることもあり部員同士仲が良いです。</span>
+        </p>
+        <p>
+          <span class="mobile-text">興味がある方は</span><span class="mobile-text">ぜひサークル棟3階304号室の情報技術研究部部室へ！</span>
+        </p>
       </div>
       <p class="backtotop">Top→</p>
     </div>
@@ -51,5 +61,17 @@ p {
   flex-direction: column;
   margin-top: 5vh;
   justify-content: center;
+}
+@media screen and (max-width: 1000px) {
+  .mobile-text {
+    display: inline-block;
+    text-align: left;
+    padding: 1.5vh 0;
+  }
+}
+@media screen and (max-width: 426px) {
+  .mobile-text {
+    padding: 0.5vh 0;
+  }
 }
 </style>
