@@ -5,11 +5,19 @@
       <h2 class="title">概要</h2>
       <div class="InformationContainer">
         <ul>
-          <li><h3>場所</h3></li>
-          <p>東京ビッグサイト　南4</p>
-          <li><h3>説明</h3></li>
-          <p>東京ビックサイトやコミックマーケットについてはコミックマーケット公式サイトをご覧ください。</p>
-          <li><h3>hogehoge</h3></li>
+          <li>
+            <h3>場所</h3
+          ></li>
+          <p>東京ビッグサイト  南4</p>
+          <li>
+            <h3>説明</h3>
+          </li>
+          <p>
+            <span class="mobile-text">東京ビックサイトやコミックマーケットについては</span><span class="mobile-text">コミックマーケット公式サイトをご覧ください。</span>
+          </p>
+          <li>
+            <h3>hogehoge</h3>
+          </li>
           <p>fugafuga</p>
         </ul>
         <img src="/bigsite.jpg">
@@ -17,9 +25,15 @@
       <h2 class="title">最新のお知らせ一覧</h2>
       <div class="InformationContainer">
         <ul>
-          <li>コミックマーケット98にサークル参加します</li>
-          <li>コミックマーケット98にサークル参加します</li>
-          <li>コミックマーケット98にサークル参加します</li>
+          <li>
+            <span class="mobile-text">コミックマーケット98に</span><span class="mobile-text">サークル参加します</span>
+          </li>
+          <li>
+            <span class="mobile-text">コミックマーケット98に</span><span class="mobile-text">サークル参加します</span>
+          </li>
+          <li>
+            <span class="mobile-text">コミックマーケット98に</span><span class="mobile-text">サークル参加します</span>
+          </li>
         </ul>
       </div>
       <p class="backtotop">Top→</p>
@@ -64,5 +78,18 @@ div.InformationContainer {
 img {
   max-width: 50%;
   max-height: 50%;
+  margin: 2vh 0;
+}
+@media screen and (max-width: 1000px) {
+  .mobile-text {
+    display: inline-block;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 426px) {
+  img {
+    max-width: 70%;
+    max-height: 70%;
+  }
 }
 </style>
