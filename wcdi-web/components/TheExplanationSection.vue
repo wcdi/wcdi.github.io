@@ -22,110 +22,107 @@
 </template>
 
 <script>
-  // 現状ここは無視でいいよ
-  export default {};
+// 現状ここは無視でいいよ
+export default {};
 </script>
 
 
 <style scoped>
-  /* ここにCSS書いてね */
+/* ここにCSS書いてね */
 @font-face {
-    font-family: 'Rationale';
-    src: url(../assets/fonts/Rationale-Regular.ttf);
-  }
-  .Contents {
-    text-align: center;
-  }
+  font-family: "Rationale";
+  src: url(../assets/fonts/Rationale-Regular.ttf);
+}
+.Contents {
+  text-align: center;
+}
 
-  #ITRC_Title {
-    font-size: 64px;
-  }
+#ITRC_Title {
+  font-size: 64px;
+}
 
-  .ArticleContainer {
+.ArticleContainer {
+  margin-top: 4rem;
+  font-size: 22px;
+}
+
+.AboutUsButtonSize {
+  display: flex;
+  justify-content: center;
+  font-size: 1.6em;
+  padding: 0 2em;
+  margin-top: 4rem;
+  margin-left: 65%;
+  margin-right: 25%;
+}
+.AboutUsButton {
+  background: #208cc2;
+  color: #fff;
+  border: none;
+  position: relative;
+  height: 35px;
+  width: 150px;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+  border-radius: 10px 0px 10px 0px;
+}
+.AboutUsButton:hover {
+  background: #fff;
+  color: #72aef3;
+}
+.AboutUsButton:before,
+.AboutUsButton:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #208cc2;
+  transition: 400ms ease all;
+}
+.AboutUsButton:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+.AboutUsButton:hover:before,
+.AboutUsButton:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+#ButtonText {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 25px;
+}
+@media screen and (max-width: 1000px) {
+  .AboutUsButtonSize {
+    font-size: 1.6em;
+    padding: 0 2em;
     margin-top: 4rem;
-    font-size: 22px;
+    margin-left: 30%;
+    margin-right: 30%;
   }
-
-  .AboutUsButtonSize{
-   
-    font-size:1.6em;
-    padding:0 2em;
+}
+@media screen and (max-width: 600px) {
+  .AboutUsButtonSize {
+    font-size: 1.6em;
+    padding: 0 2em;
     margin-top: 4rem;
-    margin-left: 65%;
-    margin-right: 25%; 
+    margin-left: 20%;
+    margin-right: 20%;
   }
-  .AboutUsButton {
-    background:#208cc2;
-    color:#fff;
-    border:none;
-    position:relative;
-    height:35px;
-    width: 150px;
-    cursor:pointer;
-    transition:800ms ease all;
-    outline:none;
-    border-radius:10px 0px 10px 0px;
+}
+@media screen and (max-width: 600px) {
+  .AboutUsButtonSize {
+    font-size: 1.6em;
+    padding: 0 2em;
+    margin-top: 4rem;
+    margin-left: 10%;
+    margin-right: 10%;
   }
-   .AboutUsButton:hover{
-    background:#fff;
-    color:#72aef3;
-   }
-  .AboutUsButton:before,.AboutUsButton:after{
-    content:'';
-    position:absolute;
-    top:0;
-    right:0;
-    height:2px;
-    width:0;
-    background: #208cc2;
-    transition:400ms ease all;
-  }
-  .AboutUsButton:after{
-    right:inherit;
-    top:inherit;
-    left:0;
-    bottom:0;
-  }
-  .AboutUsButton:hover:before,.AboutUsButton:hover:after{
-    width:100%;
-    transition:800ms ease all;
-  }
-   #ButtonText {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 25px;
-  }
-  @media screen and (max-width: 1000px) {
-    
-    .AboutUsButtonSize{
-    
-      font-size:1.6em;
-      padding:0 2em;
-      margin-top: 4rem;
-      margin-left: 30%;
-      margin-right: 30%; 
-    }
-  }
-  @media screen and (max-width: 600px) {
-    
-    .AboutUsButtonSize{
-    
-      font-size:1.6em;
-      padding:0 2em;
-      margin-top: 4rem;
-      margin-left: 20%;
-      margin-right: 20%; 
-    }
-  }
-  @media screen and (max-width: 600px) {
-    
-    .AboutUsButtonSize{
-    
-      font-size:1.6em;
-      padding:0 2em;
-      margin-top: 4rem;
-      margin-left: 10%;
-      margin-right: 10%; 
-    }
-  }
+}
 </style>
