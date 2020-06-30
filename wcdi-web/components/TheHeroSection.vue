@@ -86,6 +86,17 @@ export default {};
 .research {
   margin-left: 0.2rem;
 }
+/*以下フェードイン表示の指定*/
+.top-section {
+    opacity: 0;
+    animation: top-section 3s ease forwards;
+}
+@keyframes top-section {
+    100% {  opacity: 1;}
+}
+
+
+
 
 @media screen and (max-width: 1000px) {
   .top-section {

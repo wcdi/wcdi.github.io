@@ -28,15 +28,18 @@
     flex-direction: column;
     align-items: center;
   }
+  
 
   .ContactButton {
     background-color: #555aaa;
-    color: #fff;
     font-weight: bold;
     font-size: 22px;
     padding: 2rem 8rem;
     border-radius: 30px;
     text-decoration: none;
+    color: rgba(255,255,255);
+    box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 1px inset;
+    
   }
 
   @media screen and (max-width: 576px) {
@@ -44,4 +47,18 @@
       padding: 1rem 2rem;
     }
   }
+
+  a {
+    -webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+}
+
+
+.ContactButton:hover {
+    color: rgba(255, 255, 255);
+    box-shadow: rgba(90, 90, 90, 0.7) 0 0px 0px 50px inset;
+}
 </style>
