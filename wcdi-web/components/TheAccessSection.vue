@@ -13,7 +13,7 @@
           <div class="TextItem">
             <h3 class="ContentsIndex">活動時間</h3>
             <div class="TextDetail">
-              <p>平日：17:00~19:00</p>
+              <p class="TextDate">平日：17:00~19:00</p>
               <p>学校がある日は基本的に活動しています</p>
             </div>
           </div>
@@ -93,6 +93,7 @@
 
   .RoomContents {
     margin-top: 4rem;
+
   }
 
   .MapItem > h3 {
@@ -114,6 +115,14 @@
 
   .ContentsIndex {
     font-size: 22px;
+  }
+
+  .TextDetail > p {
+      font-size: 22px;
+  }
+  
+  .TextDate {
+    margin-bottom: 1rem;
   }
 
   @media screen and (max-width: 1000px) {
@@ -146,6 +155,12 @@
       width: 1000px;
       margin-left: auto;
       margin-right: auto;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .RoomContents {
+      font-size: 16px;
     }
   }
 

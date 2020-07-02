@@ -39,7 +39,7 @@
     text-decoration: none;
   }
 
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 784px) {
     .ContactButton {
       padding: 1rem 2rem;
     }

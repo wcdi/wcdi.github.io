@@ -168,7 +168,7 @@
   /*  }*/
   /*}*/
 
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 784px) {
     .Contents {
       display: block;
     }
