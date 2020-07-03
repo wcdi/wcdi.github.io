@@ -74,6 +74,9 @@
     height: 80px;
     padding: 8px;
   }
+  .AnnounceItem:hover{
+    background: #e9e9e9;
+  }
 
   .AnnounceItem > a {
     text-decoration: none;
