@@ -11,8 +11,10 @@
           <p class="text">それぞれ<strong>高い目標</strong>を持つ部員が集まり活動しています</p>
           <p class="text">定期的にもくもく会, LT大会, コンテストの参加を行い<br>日々研鑽を重ねています</p>
          
-          <div class="AboutUsButton">
-            <a id="ButtonText" href="./about">about us ></a>
+          <div class="AboutUsButtonSize">
+            <a id="ButtonText" href="./about">
+              <div class="AboutUsButton">about us</div>
+            </a>
           </div>
         </div>
       </div>
@@ -41,17 +43,58 @@
     font-size: 22px;
   }
 
-  .AboutUsButton {
-    margin-top: 1rem;
-    text-align: right;
-    width: 80%;
-  }
+  .AboutUsButtonSize {
+  display: flex;
+  justify-content: center;
+  font-size: 1.6em;
+  padding: 0 2em;
+  margin-top: 4rem;
+  margin-left: 65%;
+  margin-right: 25%;
+}
+.AboutUsButton {
+  background: #208cc2;
+  color: #fff;
+  border: none;
+  position: relative;
+  height: 35px;
+  width: 150px;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+}
+.AboutUsButton:hover {
+  background: #fff;
+  color: #72aef3;
+}
+.AboutUsButton:before,
+.AboutUsButton:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #208cc2;
+  transition: 400ms ease all;
+}
+.AboutUsButton:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+.AboutUsButton:hover:before,
+.AboutUsButton:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
 
   #ButtonText {
-    color: black;
-    text-decoration: none;
-    font-size: 18px;
-  }
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 25px;
+}
   .text br {
     display: none;
   }

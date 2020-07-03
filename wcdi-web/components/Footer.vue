@@ -175,6 +175,39 @@
     font-size: 14px;
   }
 
+ .LinksTitleItem {
+    font-size: 2rem;
+    font-family: 'Rationale', sans-serif;
+  }
+  .LinkTextItem {
+    margin-top: 1rem;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: 400ms ease all;
+    text-decoration: none;
+    position: relative;
+    text-decoration: none;
+}
+.LinkTextItem::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: rgb(221, 220, 220);
+    transform: scale(0, 1);
+    transform-origin: left top;
+    transition: transform 0.3s;
+}
+.LinkTextItem:hover::after {
+    transform: scale(1, 1);
+}
+
+
   .LinkTextItem > a {
     color: white;
     text-decoration: none;
