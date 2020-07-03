@@ -41,14 +41,10 @@
           </div>
           <div class="text">
             <p>
-              <span class="mobile-text">メンバーにはITスペシャリスト科の学生が多いですが、</span>
-              <span class="mobile-text">他学科のメンバーも在籍しています。</span>
+              <span class="mobile-text">メンバーにはITスペシャリスト科の学生が多いですが、</span><span class="mobile-text">他学科のメンバーも在籍しています。</span>
             </p>
             <p>
-              <span class="mobile-text">また、同じ学科・専攻であっても</span>
-              <span class="mobile-text">普段勉強している内容は違うことも多いため、</span>
-              <span class="mobile-text">様々な分野の情報を交換したり、</span>
-              <span class="mobile-text">それぞれの得意分野を活かして大会に出る事もあります。</span>
+              <span class="mobile-text">また、同じ学科・専攻であっても</span><span class="mobile-text">普段勉強している内容は違うことも多いため、</span><span class="mobile-text">様々な分野の情報を交換したり、</span><span class="mobile-text">それぞれの得意分野を活かして大会に出る事もあります。</span>
             </p>
           </div>
         </div>
@@ -59,8 +55,7 @@
               <span class="mobile-text">このように、全体的に間口の広いサークルとなっています。</span>
             </p>
             <p>
-              <span class="mobile-text">また、Twitterで直近の活動情報などを発信しているので、</span>
-              <span class="mobile-text">興味のある方は是非ご活用ください。</span>
+              <span class="mobile-text">また、Twitterで直近の活動情報などを発信しているので、</span><span class="mobile-text">興味のある方は是非ご活用ください。</span>
             </p>
             <div class="section-line"></div>
           </div>
