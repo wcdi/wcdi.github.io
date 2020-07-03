@@ -62,10 +62,9 @@ p {
   margin-top: 5vh;
   justify-content: center;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   .mobile-text {
     display: inline-block;
-    text-align: left;
     padding: 1.5vh 0;
   }
 }

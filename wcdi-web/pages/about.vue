@@ -109,18 +109,17 @@ p {
 .sub-title-text {
   display: none;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   .sub-title {
     text-align: center;
   }
   h3.sub-title-text {
   border-bottom: solid 3px #006F87;
   display: inline-block;
-  margin: 0 auto 0;
+  margin: 3vh auto 1vh;
   }
   .mobile-text {
     display: inline-block;
-    text-align: left;
     padding: 1.5vh 0;
   }
   .section-line {
@@ -133,7 +132,7 @@ p {
 }
 @media screen and (max-width: 426px) {
   .mobile-text {
-    padding: 0.5vh 0;
+    padding: 0;
   }
 }
 </style>

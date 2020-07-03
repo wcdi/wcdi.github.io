@@ -6,9 +6,9 @@
       <div class="InformationContainer">
         <ul>
           <li>
-            <h3>場所</h3
-          ></li>
-          <p>東京ビッグサイト  南4</p>
+            <h3>場所</h3>
+          </li>
+            <p>東京ビッグサイト  南4</p>
           <li>
             <h3>説明</h3>
           </li>
@@ -60,7 +60,7 @@
 .title {
   border-bottom: solid 3px #006F87;
   display: inline-block;
-  margin: 0 auto 0;
+  margin: 7vh auto 0;
 }
 p {
   padding: 1.5vh 0;
@@ -78,12 +78,11 @@ div.InformationContainer {
 img {
   max-width: 50%;
   max-height: 50%;
-  margin: 2vh 0;
+  margin: 2vh auto 0;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   .mobile-text {
     display: inline-block;
-    text-align: left;
   }
 }
 @media screen and (max-width: 426px) {
