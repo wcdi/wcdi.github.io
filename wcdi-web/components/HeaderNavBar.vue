@@ -123,7 +123,28 @@ export default {};
   text-decoration: none;
   display: flex;
   align-items: center;
+  transition: 400ms ease all;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
 }
+.header-text::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: rgb(221, 220, 220);
+  transform: scale(0, 1);
+  transform-origin: left top;
+  transition: transform 0.3s;
+}
+.header-text:hover::after {
+  transform: scale(1, 1);
+}
+
 
 .header-text > i {
   margin-right: 0.5rem;
@@ -145,6 +166,7 @@ export default {};
   .sp-container {
     position: fixed;
     width: 100%;
+    z-index: 999;
   }
   .header-ul {
     display: none;
@@ -219,7 +241,6 @@ export default {};
     display: flex;
     flex-direction: column;
     font-size: 1.25rem;
-    margin: 2rem 0 2rem 6rem;
     padding-right: 40px;
   }
 }

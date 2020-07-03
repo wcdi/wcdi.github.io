@@ -30,14 +30,23 @@
   }
 
   .ContactButton {
-    background-color: #555aaa;
+    background-color: rgb(65, 111, 211);
     color: #fff;
     font-weight: bold;
     font-size: 22px;
     padding: 2rem 8rem;
     border-radius: 30px;
     text-decoration: none;
+     -webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
   }
+  .ContactButton:hover {
+    color: rgba(255, 255, 255);
+    box-shadow: #555aaa 0 0px 0px 50px inset;
+}
 
   @media screen and (max-width: 576px) {
     .ContactButton {

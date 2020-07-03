@@ -87,6 +87,10 @@ export default {};
   margin-left: 0.2rem;
 }
 
+@keyframes top-section {
+    100% {  opacity: 1;}
+}
+
 @media screen and (max-width: 1000px) {
   .top-section {
     flex-direction: column;

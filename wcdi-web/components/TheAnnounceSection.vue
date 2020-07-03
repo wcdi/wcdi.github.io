@@ -61,6 +61,9 @@
     height: 512px;
     padding: 10px
   }
+   .AnnounceItem:hover{
+    background: #e9e9e9;
+  }
 
   #NewAnnouncementsText {
     height: 56px;
