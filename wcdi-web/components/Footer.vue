@@ -51,11 +51,70 @@
     src: url(../assets/fonts/Rationale-Regular.ttf);
   }
 
+
+/* ここにCSS書いてね */
   footer {
     width: 100%;
-    background-color: #202020;
+    background-color: #5a5a5a;
+    padding: 2rem 0 1rem 0;
+  }
+  .footer-content {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .flex {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 1rem;
   }
 
+  .footer-subcontent {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .footer-title {
+    font-size: 34px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .footer-main {
+    color: #fff;
+  }
+
+  .footer-tops,
+  .footer-searches,
+  .footer-links {
+    padding-left: 0;
+    margin: 20px auto;
+    list-style: none;
+  }
+
+  .footer-top > *:hover,
+  .footer-link > *:hover,
+  .footer-search > *:hover {
+    border-bottom: 1px solid black;
+    padding-bottom: 3px;
+  }
+
+  .footer-top,
+  .footer-link {
+    margin-bottom: 16px;
+    font-weight: bold;
+  }
+  .link-decoration {
+    text-decoration: none;
+    color: #e6e6e6;
+  }
+  .footer-search {
+    margin-bottom: 20px;
+    font-weight: bolder;
+  }
+
+  .footer-subtitle {
+    font-size: 30px;
+  }
   .SectionContainer {
     padding-top: 4rem;
     padding-bottom: 4rem;
