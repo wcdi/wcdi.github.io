@@ -1,5 +1,6 @@
 <template>
   <div>
+    <HeaderNavBar />
     <Header pageTitle="コミックマーケット98にサークル参加します"></Header>
     <div class="Container">
       <h2 class="title">概要</h2>
@@ -38,15 +39,20 @@
       </div>
       <p class="backtotop">Top→</p>
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
-  import Header from '@/components/Header';
+  import HeaderNavBar from '~/components/HeaderNavBar';
+  import Header from '~/components/Header';
+  import Footer from '~/components/Footer';
   export default {
     name: "information",
     components: {
-      Header
+      HeaderNavBar,
+      Header,
+      Footer
     }
   }
 </script>

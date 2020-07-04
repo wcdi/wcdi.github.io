@@ -1,5 +1,6 @@
 <template>
   <div>
+    <HeaderNavBar />
     <Header pageTitle="メンバー"></Header>
     <div class="Container">
       <h2 class="title">メンバー一覧</h2>
@@ -25,15 +26,20 @@
       </div>
       <p class="backtotop">Top→</p>
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
-  import Header from '../components/Header';
+  import HeaderNavBar from '~/components/HeaderNavBar';
+  import Header from '~/components/Header';
+  import Footer from '~/components/Footer';
   export default {
     name: "member",
     components: {
-      Header
+      HeaderNavBar,
+      Header,
+      Footer
     }
   }
 </script>

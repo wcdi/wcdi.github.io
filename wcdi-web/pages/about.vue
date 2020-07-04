@@ -1,5 +1,6 @@
 <template>
   <div>
+    <HeaderNavBar />
     <Header pageTitle="About Us"></Header>
     <div class="Container">
       <h2 class="title">ITRCについて</h2>
@@ -64,16 +65,18 @@
     <p class="backtotop">Top→</p>
     <!-- Topボタンはまだただのカカシ -->
     </div>
-    <Footer></Footer>
+    <Footer />
   </div>
 </template>
 
 <script>
-  import Header from '../components/Header';
-  import Footer from '../components/Footer';
+  import HeaderNavBar from '~/components/HeaderNavBar';
+  import Header from '~/components/Header';
+  import Footer from '~/components/Footer';
   export default {
     name: "about",
     components: {
+      HeaderNavBar,
       Header,
       Footer
     }

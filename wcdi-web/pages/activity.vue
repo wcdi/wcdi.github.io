@@ -1,5 +1,6 @@
 <template>
   <div>
+    <HeaderNavBar />
     <Header pageTitle="活動ログ"></Header>
     <div class="Container">
       <h2 class="title">最近の活動</h2>
@@ -48,15 +49,20 @@
       </div>
       <p class="backtotop">Top→</p>
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
-  import Header from '../components/Header';
+  import HeaderNavBar from '~/components/HeaderNavBar';
+  import Header from '~/components/Header';
+  import Footer from '~/components/Footer';
     export default {
         name: "activity",
         components: {
-          Header
+          HeaderNavBar,
+          Header,
+          Footer
         }
     }
 </script>
