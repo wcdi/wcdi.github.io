@@ -55,7 +55,7 @@
 /* ここにCSS書いてね */
   footer {
     width: 100%;
-    background-color: #5a5a5a;
+    background-color: #202020;
     padding: 2rem 0 1rem 0;
   }
   .footer-content {
