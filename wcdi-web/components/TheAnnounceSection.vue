@@ -1,6 +1,6 @@
 <template>
   <!-- ここにHTML書いてね -->
-  <div class="SectionContainer">
+  <div class="SectionContainer" id="SectionID-2">
     <h2 class="SectionTitle">最新のお知らせ</h2>
     <div class="Contents">
       <div class="AnnounceContainer">

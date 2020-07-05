@@ -13,10 +13,10 @@
       <div class="LinksContainer">
         <div class="LinksBlock">
           <p class="LinksTitleItem">Home</p>
-          <p class="LinkTextItem">情報技術研究部</p>
-          <p class="LinkTextItem">最新のお知らせ</p>
-          <p class="LinkTextItem">アクセス</p>
-          <p class="LinkTextItem">コンタクト</p>
+          <a href="/#SectionID-1" class="LinkTextItem">情報技術研究部</a>
+          <a href="/#SectionID-2" class="LinkTextItem">最新のお知らせ</a>
+          <a href="/#SectionID-3" class="LinkTextItem">アクセス</a>
+          <a href="/#SectionID-4" class="LinkTextItem">コンタクト</a>
         </div>
         <div class="LinksBlock">
           <p class="LinksTitleItem">Contents</p>

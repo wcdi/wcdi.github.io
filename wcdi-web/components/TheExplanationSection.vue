@@ -1,6 +1,6 @@
 <template>
   <!-- ここにHTML書いてね -->
-  <div class="SectionContainer">
+  <div class="SectionContainer" id="SectionID-1">
     <div class="Contents">
       <div id="ITRC_Title">
         <p>情報技術研究部</p>
@@ -10,11 +10,11 @@
           <p class="text">情報技術研究部は日本工学院八王子専門学校にて<br>活動中のサークルです</p>
           <p class="text">それぞれ<strong>高い目標</strong>を持つ部員が集まり活動しています</p>
           <p class="text">定期的にもくもく会, LT大会, コンテストの参加を行い<br>日々研鑽を重ねています</p>
-         
+
           <div class="AboutUsButtonSize">
-            <a id="ButtonText" href="./about">
+            <nuxt-link to="/about" id="ButtonText">
               <div class="AboutUsButton">about us</div>
-            </a>
+            </nuxt-link>
           </div>
         </div>
       </div>
