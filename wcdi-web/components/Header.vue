@@ -1,9 +1,9 @@
 <template>
   <section class="top-image top-section">
     <div class="box">
-    
+
       <p>{{ pageTitle }}</p>
-      
+
     </div>
 </section>
 </template>
@@ -29,7 +29,8 @@
   justify-content: space-around;
 }
 .box{
-  padding: 12rem;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
 }
 
 .box p {
