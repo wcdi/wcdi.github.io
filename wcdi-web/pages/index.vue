@@ -33,6 +33,14 @@
       HeaderNavBar
     }
   };
+
+  let jmpSec = window.location.hash;
+  if (jmpSec !== ""){
+    window.onload = function () {
+      let element = document.getElementById(jmpSec.slice(1));
+      element.scrollIntoView();
+    }
+  }
 </script>
 
 <style>
