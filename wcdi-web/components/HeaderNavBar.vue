@@ -218,7 +218,7 @@ export default {
     display: flex;
     flex-direction: column;
     font-size: 1.25rem;
-    padding-right: 40px;
+    margin: 3rem;
   }
 }
 @media screen and (max-width: 427px) {
@@ -226,23 +226,17 @@ export default {
     max-width: 66.5vw;
   }
   .header-mobile-ul {
-    margin: 2rem 0 2rem 2rem;
+    margin: 2rem auto;
   }
 }
 @media screen and (max-width: 376px) {
   #nav-content {
     max-width: 68.7vw;
   }
-  .header-mobile-ul {
-    margin: 2rem 0 2rem 1.5rem;
-  }
 }
 @media screen and (max-width: 321px) {
   #nav-content {
     max-width: 72.1vw;
-  }
-  .header-mobile-ul {
-    margin: 2rem 0 2rem 0.5rem;
   }
 }
 </style>
