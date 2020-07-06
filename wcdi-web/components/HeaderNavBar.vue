@@ -93,6 +93,7 @@ export default {
 .header-li {
   margin-top: 16px;
   padding: 12px;
+  line-height: 1;
 }
 
 .header-text {
