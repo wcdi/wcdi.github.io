@@ -31,6 +31,20 @@
       TheContactSection,
       Footer,
       HeaderNavBar
+    },
+    mounted() {
+      if ($nuxt.$route.$hash) {
+        this.scrollToHash();
+      }
+    },
+    methods: {
+      scrollToHash() {
+        const hash = $nuxt.$route.$hash;
+        this.$nextTick(() => {
+          const element = document.getElementById(hash);
+          element.scrollIntoView();
+        });
+      }
     }
   };
 </script>

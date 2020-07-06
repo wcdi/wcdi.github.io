@@ -13,10 +13,10 @@
       <div class="LinksContainer">
         <div class="LinksBlock">
           <p class="LinksTitleItem">Home</p>
-          <p class="LinkTextItem">情報技術研究部</p>
-          <p class="LinkTextItem">最新のお知らせ</p>
-          <p class="LinkTextItem">アクセス</p>
-          <p class="LinkTextItem">コンタクト</p>
+          <NuxtLink to="/#SectionID-1" class="LinkTextItem">情報技術研究部</NuxtLink>
+          <NuxtLink to="/#SectionID-2" class="LinkTextItem">最新のお知らせ</NuxtLink>
+          <NuxtLink to="/#SectionID-3" class="LinkTextItem">アクセス</NuxtLink>
+          <NuxtLink to="/#SectionID-4" class="LinkTextItem">コンタクト</NuxtLink>
         </div>
         <div class="LinksBlock">
           <p class="LinksTitleItem">Contents</p>

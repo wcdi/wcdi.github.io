@@ -4,24 +4,24 @@
     <nav>
       <ul class="header-ul">
         <li class="header-li">
-          <a href="#" class="header-text">
+          <nuxt-link to="/" class="header-text">
             <i class="material-icons">home</i> TOP
-          </a>
+          </nuxt-link>
         </li>
         <li class="header-li margin-left">
-          <a href="#" class="header-text">
+          <nuxt-link to="/about" class="header-text">
             <i class="material-icons">computer</i> About Us
-          </a>
+          </nuxt-link>
         </li>
         <li class="header-li margin-left">
-          <a href="#" class="header-text">
+          <nuxt-link to="member" class="header-text">
             <i class="material-icons">group</i> メンバー
-          </a>
+          </nuxt-link>
         </li>
         <li class="header-li margin-left margin-right">
-          <a href="#" class="header-text">
+          <nuxt-link to="activity" class="header-text">
             <i class="material-icons">pets</i> 活動ログ
-          </a>
+          </nuxt-link>
         </li>
       </ul>
       <div class="nav-drawer">
@@ -35,24 +35,24 @@
         <div id="nav-content">
           <ul class="header-mobile-ul">
             <li class="header-li">
-              <a href="#" class="header-text">
+              <nuxt-link to="/" class="header-text">
                 <i class="material-icons">home</i> TOP
-              </a>
+              </nuxt-link>
             </li>
             <li class="header-li">
-              <a href="#" class="header-text">
+              <nuxt-link to="/about" class="header-text">
                 <i class="material-icons">computer</i> About Us
-              </a>
+              </nuxt-link>
             </li>
             <li class="header-li">
-              <a href="#" class="header-text">
+              <nuxt-link to="/member" class="header-text">
                 <i class="material-icons">group</i> メンバー
-              </a>
+              </nuxt-link>
             </li>
             <li class="header-li">
-              <a href="#" class="header-text">
+              <nuxt-link to="/activity" class="header-text">
                 <i class="material-icons">pets</i> 活動ログ
-              </a>
+              </nuxt-link>
             </li>
           </ul>
         </div>
