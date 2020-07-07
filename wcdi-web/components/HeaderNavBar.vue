@@ -4,22 +4,22 @@
       <ul class="header-ul">
         <li class="header-li">
           <nuxt-link to="/" class="header-text">
-            <i class="material-icons">home</i> TOP
+            <i class="material-icons fixed-icons">home</i> TOP
           </nuxt-link>
         </li>
         <li class="header-li margin-left">
           <nuxt-link to="/about" class="header-text">
-            <i class="material-icons">computer</i> About Us
+            <i class="material-icons fixed-icons">computer</i> About Us
           </nuxt-link>
         </li>
         <li class="header-li margin-left">
           <nuxt-link to="member" class="header-text">
-            <i class="material-icons">group</i> メンバー
+            <i class="material-icons fixed-icons">group</i> メンバー
           </nuxt-link>
         </li>
         <li class="header-li margin-left margin-right">
           <nuxt-link to="activity" class="header-text">
-            <i class="material-icons">pets</i> 活動ログ
+            <i class="material-icons fixed-icons">pets</i> 活動ログ
           </nuxt-link>
         </li>
       </ul>
@@ -35,22 +35,22 @@
           <ul class="header-mobile-ul">
             <li class="header-li">
               <nuxt-link to="/" class="header-text">
-                <i class="material-icons">home</i> TOP
+                <i class="material-icons fixed-icons">home</i> TOP
               </nuxt-link>
             </li>
             <li class="header-li">
               <nuxt-link to="/about" class="header-text">
-                <i class="material-icons">computer</i> About Us
+                <i class="material-icons fixed-icons">computer</i> About Us
               </nuxt-link>
             </li>
             <li class="header-li">
               <nuxt-link to="/member" class="header-text">
-                <i class="material-icons">group</i> メンバー
+                <i class="material-icons fixed-icons">group</i> メンバー
               </nuxt-link>
             </li>
             <li class="header-li">
               <nuxt-link to="/activity" class="header-text">
-                <i class="material-icons">pets</i> 活動ログ
+                <i class="material-icons fixed-icons">pets</i> 活動ログ
               </nuxt-link>
             </li>
           </ul>
@@ -73,6 +73,11 @@ export default {
 
 <style scoped>
 
+.fixed-icons {
+  display: inline-flex;
+  vertical-align: text-bottom;
+}
+
 .header-background {
   height: 81px;
   background: #201d1d;
@@ -88,6 +93,7 @@ export default {
 .header-li {
   margin-top: 16px;
   padding: 12px;
+  line-height: 1;
 }
 
 .header-text {
@@ -213,7 +219,7 @@ export default {
     display: flex;
     flex-direction: column;
     font-size: 1.25rem;
-    padding-right: 40px;
+    margin: 3rem;
   }
 }
 @media screen and (max-width: 427px) {
@@ -221,23 +227,17 @@ export default {
     max-width: 66.5vw;
   }
   .header-mobile-ul {
-    margin: 2rem 0 2rem 2rem;
+    margin: 2rem auto;
   }
 }
 @media screen and (max-width: 376px) {
   #nav-content {
     max-width: 68.7vw;
   }
-  .header-mobile-ul {
-    margin: 2rem 0 2rem 1.5rem;
-  }
 }
 @media screen and (max-width: 321px) {
   #nav-content {
     max-width: 72.1vw;
-  }
-  .header-mobile-ul {
-    margin: 2rem 0 2rem 0.5rem;
   }
 }
 </style>
